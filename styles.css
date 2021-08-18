@@ -1,0 +1,362 @@
+
+	body , html{
+			padding: 0;
+			margin: 0;
+		}
+
+		html{
+			background: #e1e1e1;
+			font-family: "Helvetica Neue", Helvetica, Arial , sans-serif;
+			padding-top: 50px;
+		}
+		a{
+			color: #222222;
+		}
+		#main-header{
+			background: #ffffff;
+			padding: 5px;
+			box-shadow: 0 4px 2px -2px rgba(000, 0, 0, 0.5);
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 100;
+		}
+		#main-header h1 {
+			font-size: 20px;
+			margin: 0;
+			/*top: 0;*/
+			margin-right: 20px;
+			float: left;
+		}
+		#main-header nav ul{
+
+			list-style: none;
+			padding: 0;
+			margin: 0;
+
+		}
+		#main-header nav ul li{
+			float: left;
+			margin-left: 20px;
+		}
+ down
+		#main-header nav ul li a{
+
+			padding: 10px;
+			display: block;  
+			text-decoration: none;
+			border: 1px solid transparent;
+		}
+		#main-header nav ul li a:hover{
+
+			background: #f7f7f7;
+			border: radius: 5px;
+			border: 1px solid #e1e1e1;
+		}
+		
+		.clearfix:after {
+			visibility: hidden;
+			display: block;
+			font-size: 0;
+			content: " ";
+			clear: both;
+			height: 0;
+		}
+
+		#feauture-artikel{
+			background: #f1f1f1;
+		}
+		#feauture-artikel h2 , #feauture-artikel h3{
+			margin: 5px 0;
+		}
+		#feauture-artikel figure{
+			float: left;
+			margin: 0 20PX 0 0 ;
+
+		}
+		#feauture-artikel figure img {
+			width = 140px; 
+		}
+		#feauture-artikel p{
+
+			overflow: hidden;
+		}
+		.container{
+			width: 960px;
+			margin:0 auto ;
+		}
+		.card{
+			background: #f7f7f7;
+			padding: 15px;
+			border-radius: 5px;
+			border: 1px solid #fff;
+			margin-top: 20px;
+			overflow: hidden;
+		}
+
+		.post-list{
+			 list-style: none;
+			 padding: 0;
+			 margin: 0;	
+			 padding-left: 200px;
+
+		}.post-list article {
+			position: relative;
+			padding-left: 200px;
+			
+		}
+		
+		.post-list article footer{
+			position: absolute;
+			left: 0;
+			top: 5px;
+			width: 200px;
+
+		}
+		.post-list figure img{
+			max-width: 100%;
+
+		}
+		.post-list figure figcaption{
+			text-align: center;
+			font-weight: bold;
+		}
+		.post-list time{
+			color: #888;
+			padding-bottom: 5px;
+			display: block;
+		}
+		/* line */
+		.post-list li {
+			border-bottom: 1px solid #e1e1e1;
+			margin-bottom: 25px;
+			padding-bottom: 25px;
+		}
+		/* line last delete */
+			.post-list li:last-child {
+			border-bottom: 0;
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+
+		#footer-links{
+			margin-top: 40px;
+			background: #fff;
+			border-top: 1px solid #e1e1e1;
+			border-bottom: 1px solid #e1e1e1;
+			padding: 20px 0;
+
+		}
+		#footer-links .column{
+			width: 50%;
+			float: left;
+
+		}
+		#footer-links ul{
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+		#footer-links ul li {
+			padding: 5px 10px;
+		}
+
+		#footer-links h3 {
+			margin: 5px 10px;
+			padding: 10px;
+			border-bottom: 1px solid #e1e1e1;
+		}
+		#footer-links a{
+			color: #111111;
+			text-decoration: none;
+		}
+
+		/*.social-link[rel="external"]{
+			
+			background-color: red;
+		}*/
+
+		.social-link{
+			
+ 			background: left center no-repeat;
+			padding-left: 24px;
+		}
+
+		.social-link.facebook{
+			/*background-image: url("facebook.png");*/
+			background-image: url('images/facebook.png');
+
+			
+		}
+		.social-link.instagram{
+			background-image: url("images/instagram.png");
+			
+		}
+		.social-link.twitter{
+			background-image: url("images/twitter.png");
+			
+		}
+
+		body > footer{
+			padding: 19px 0;
+		}
+		body > footer span{
+			float: left;
+			margin-right: 20px;
+
+			
+		}
+
+		body > footer ul{
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+
+		body > footer ul li{
+			float: left;
+			margin-right: 10px;
+			
+		}
+		body > footer ul li::after{
+			content: "-";
+			margin-left: 10px;
+			color: #888;
+		}
+
+		body > footer ul li:last-child::after{
+			content: "";
+		}
+
+
+		form div{
+			margin-top: 10px;
+		}
+		form label{
+			display: block;
+
+		}
+		form input, form button , form textarea{
+			border: 1px solid #d1d1d1;
+			border-radius: 5px;
+			padding: 7px;
+			background: #f7f7f7;	
+		}
+		form input:focus, form button:focus, form textarea:focus{
+		background: yellow;
+		}
+		form fieldset{
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #e1e1e1;
+		}
+		form legend{
+			font-weight: bold;
+		}
+		.light{
+			width: 200px;
+		}
+		.light-container{
+			text-align: center;
+		}
+
+
+.accordion > div > span{
+	background-color: #eee;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	padding: 15px;
+	border-bottom: 1px solid #ccc;
+}
+
+/* ecke fo the accordion-form */
+.accordion > div:first-child > span{
+	border-radius: 10px 10px  0 0;	
+}
+
+.accordion > div:last-child > span{
+	border-radius: 0 0 10px 10px  ;	
+	border-bottom: 0;
+	
+	}
+
+.accordion > div.show:last-child > span{
+	border-radius: 0 ;	
+	
+	}
+
+
+.accordion > div.show:last-child > div{
+
+	border-bottom: 1px solid #ccc;
+	border-radius: 0 0 10px 10px;	
+
+	}
+
+.accordion > div > span:after {
+	content: "\002b";
+	float: right;
+}
+
+.accordion > div.show > span:after {
+	content: "\2212";
+	}
+.accordion > div > span:hover ,	
+.accordion > div.show > span	 {
+	background-color: #ccc;		
+}
+
+
+.accordion > div > div {
+border-left:1px solid #ccc ;
+border-right:1px solid #ccc ;
+/*display: none;*/
+/* animation */
+max-height: 0;
+overflow: hidden;
+transition: all 0.5s;
+padding:0 15px	;
+}
+
+.accordion > div.show > div {
+	/*display: block;*/
+	/* animation */
+	/*max-height: 300px;*/
+	padding: 15px;
+
+}
+
+
+/*scroll things*/
+.scroll,
+.scroll2{
+	background-image: url('arrow.svg');
+	background-color: red;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50px;
+	height: 50px;
+	border: 0;
+	border-radius: 50%;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	cursor: auto !important;
+	opacity: 0;
+	transition: opacity 0.5s
+}
+.scroll2{
+	background-color: blue;
+	left: 20px;
+}
+
+.scroll.show,
+.scroll2.show{
+	cursor: pointer !important;
+	opacity: 1;
+
+}
+
+

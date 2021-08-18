@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>saman Hpmepage</title>
+
+	<meta charset="utf-8"/>
+	<!-- for search in goggle-->
+	<meta name="description" content="fur search goggle"/>
+	<!-- for size in differnt device-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	
+
+	<!-- <style type="text/css">
+	
+	</style> -->
+
+</head>
+
+<body>
+		<!-- HEADER ALLE WEBSITE-->
+		<header id="main-header" class="clearfix">
+			<div class="container">
+				<h1>saman homepage</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="about.html">ABOUT US</a></li>
+
+
+					</ul>	
+
+				</nav>
+			</div>
+		</header>
+		
+		<div class="container">
+				<!-- for sidebar-->
+				<aside id="feauture-artikel" class="clearfix card">	
+					<figure>
+					<img src="https://cdn.pixabay.com/photo/2021/07/03/22/15/buildings-6384966__480.jpg" alt='natur'>
+				
+				</figure>
+					<header>
+						<h2>Feauture artikel</h2>
+						<h3><a href='feautured.html'>saman detail pic</a></h3>
+					</header>
+					<p>Verwende die Systemeinstellung „Netzwerk“, um eine Verbindung zu einem VPN (Virtual Private Network) mit einer bestehenden Internetverbindung herzustellen.<br />
+					</p>
+				</aside>
+		<div class="card light-container">
+			
+				<form >
+						<button  onclick="switchLight(true); return false;">Turn on light</button>
+						<button onclick="switchLight(false); return false;"> Turn off light</button>
+						<button  onclick="switchLight(); return false;">Toggle light</button>
+						
+
+				</form>
+	
+				<!-- change id mit call function switchLight()-->
+			<img id='light-bulb' class="light" src="image/bulbon.gif" alt="Light">
+			
+		</div>
+						<h2 id="articles">Articles</h2>
+
+		<main class="card">
+			<ol class="post-list">
+				<li>	
+							<!-- artikel mit writer and title and time -->
+
+					<article>
+					 <header>
+							
+						<footer>
+							<time datetime="2021-07-12T23:00+3:30">July 7, 2021 - 18:00pm</time>
+							<address>
+								By <a href="saman.html">saman soheily</a>
+							</address>
+						</footer>
+						<h3>
+						 <a href="post1.html">haloo totole hier </a> 
+						</h3>  
+					 </header>
+					 <p>Sublime Merge is cross-platform Git client, done the Sublime Text way. Click here to learn more…
+						Bundled license keys are accepted by ST4 and Sublime Merge, but not by ST3 and earlier</p>
+
+					</article>
+					<details>
+						<summary>
+							click here to see more
+						</summary>
+						<p>SQL is a standard language for storing, manipulating and retrieving data in databases.
+
+						Our SQL tutorial will teach you how to use SQL in: MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres, and other database systems.
+
+						</p>
+					</details>
+				</li>
+
+
+				<li>
+							<!-- artikel mit writer and title and time -->
+
+					<article>
+					 <header>
+							
+						<footer>
+							<time datetime="2021-07-12T23:00+3:30">July 7, 2021 - 19:00pm</time>
+							<address>
+								By <a href="saman.html">saman soheily</a>
+							</address>
+						</footer>
+						<h3>
+						 <a href="post1.html">seconed Artikel </a> 
+						</h3>  
+					 </header>
+					 <p> Always specify both the height and width attributes for images. If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
+					 	<figure><img src="https://i.pinimg.com/originals/32/4e/1b/324e1bbf7fa96ad1d8804d3627f89337.jpg">
+							<figcaption>2 picture ayda</figcaption>
+						</figure>
+
+						Tip: Downsizing a large image with the height and width attributes forces a user to download the large image (even if it looks small on the page). To avoid this, rescale the image with a program before using it on a page.
+
+						Sublime Merge is cross-platform Git client, done the Sublime Text way. Click here to learn more…
+						Bundled license keys are accepted by ST4 and Sublime Merge, but not by ST3 and earlier</p>
+						
+
+					</article>
+				</li>
+			</ol>
+		</main>
+		</div>
+
+		<div class="container">
+			<section id="contanct-form" class="card">
+				<form method="get" action="index.html">
+					<fieldset>
+						<legend>Basic Info</legend>
+						<div>
+							<!-- for and id for easy and better click item box -->
+							<label for="username">Username</label>
+							<input id="username" type="text" name="username" placeholder="e.g John" required>
+						</div>
+
+						<div>
+							<label>Password</label>
+							<input type="password" name="password" required>
+						</div>
+
+
+						<div>
+							<strong>Gender</strong>
+							<!-- lables are heer for better  and easy click item  -->
+							<label>
+							<input type="radio" name="gender">Male
+							</label>
+							<label>
+							<input type="radio" name="gender" checked>Female
+							</label>
+						</div><label>
+								<input type="checkbox" name="skills" value="Programming" checked>Programming
+							</label>
+							<label>
+								<input type="checkbox" name="skills" value="Chess">Chess
+							</label>
+						<div>
+							<label>
+								<input type="checkbox" name="skills" value="Dancing">Dancing
+							</label>
+
+						</div>
+						<div>
+							<label>city</label>
+								<select name="City" id>
+									<option value="">(select city)</option>
+									<option value="Bidgol">Bigdol</option>
+									<option value="Teheran" selected>Teheran</option>
+									<option value="Shiraz">Shiraz</option>
+									<option value="Esfehan">Esfehan</option>
+								</select>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>More Info</legend>
+						<div>
+							<label>Bio</label>
+							<textarea name="bio" id="bio" cols="30" rows="10">
+							</textarea>
+						</div> 
+						<div>
+							<label>photo</label>
+							<input type="file" name="photo">
+
+						</div>
+						<div>
+							<label>Email</label>
+							<input type="email" name="email">
+
+						</div>
+						<div>
+							<label>Search</label>
+							<input type="search" name="search">
+
+						</div>
+						<div>
+							<label>Color</label>
+							<input type="color" name="color">
+
+						</div>
+
+						<div>
+							<label>Bitrhdate</label>
+							<input type="date" name="birthdate">
+
+						</div>
+						<div>
+							<label>Grade</label>
+							<input type="number" name="grade" min="0" max="20">
+
+						</div>
+						<div>
+							<label>Minimum Price</label>
+							<input type="range" name="minPrice" min="0" max="50" step="10">
+
+						</div>
+						
+					</fieldset>
+						<div>
+							<button type="submit" > <strong>Register</strong></button>
+							<!-- <input type="submit" value ="Register"> -->
+							<input type="reset" value="Reset form">
+						</div>
+			</form>
+			</section>
+				
+		</div>
+
+
+									<!-- for secial media : use section -->
+
+		<section id="footer-links" class="clearfix">
+			<div class="container">
+					 <div class="column">
+					 	<h3>browser</h3>
+					 	<ul>
+					 		<li><a href="#"> adress link saman git</a></li>
+					 		<li><a href="#"> adress link saman lap</a></li>
+					 		<li><a href="#"> adress link saman media</a></li>
+
+					 	</ul>
+
+
+					 </div>
+					 <div class="column">
+					 	<h3>social</h3>
+					 	<ul>
+					 		<li><a class="social-link facebook"  rel="external" href="http://facebook.com"> facebook</a></li>
+					 		<li><a class="social-link instagram" rels="external" href="https://www.instagram.com/"> instgeram</a></li>
+					 		<li><a class="social-link twitter"   rel="external" href="https://twitter.com/">   twitter</a></li>
+
+					 	</ul>
+
+		 
+					 </div>
+			</div>
+		</section>	
+		<footer class="clearfix">
+			<div class="container">
+			<span>
+													<!-- charketer-->
+
+				&copy; saman soheilyfar
+			</span>
+
+				<ul> 
+				<li><a href="privacy.html">privicy Policy </a> </li>
+				<li><a href="terms.html">Terms of Srevice</a> </li>
+				<li><a href="mailto:sam.soheil@yahoo.com">support</a></li>
+
+				</ul>
+			</div>	
+		</footer>
+
+		<!-- <script src="accordion.js"></script> -->
+
+	<button class="scroll"></button>
+	<button class="scroll2"></button>
+	<script src="scroll.js"></script>
+	<script src="accordion	.js"></script>
+
+		<script>
+
+		</script>
+		
+
+</body>
+
+
+
+
+</html>
