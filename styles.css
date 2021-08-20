@@ -265,10 +265,12 @@
 .accordion > div > span{
 	background-color: #eee;
 	display: block;
-	width: 100%;
+	width: 90%;
 	cursor: pointer;
 	padding: 15px;
 	border-bottom: 1px solid #ccc;
+			
+
 }
 
 /* ecke fo the accordion-form */
