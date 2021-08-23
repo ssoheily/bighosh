@@ -58,3 +58,37 @@ window.addEventListener("scroll", e => {
 				}
 			}
 			// TODO:
+
+
+// pop.js
+// /////////////
+
+
+
+
+
+
+
+let popupBtn = document.querySelector("button.popup-btn")
+
+if(popupBtn){
+	var popupWrapper = document.createElement("div")
+	popupWrapper.className="popup-Wrapper"
+	document.body.prepend(popupWrapper)
+}
+popupBtn.addEventListener("click" , e => {
+	let popup = popupBtn.nextElementSibling
+	popup.classList.add("show")
+	popupWrapper.classList.add("show")
+
+	let popupCloseFunc= e =>{
+		popup.classList.add("show")
+		popupWrapper.classList.add("show")
+	}
+
+	let popupClose=document.querySelectorAll(".popup-close")
+	popupClose.forEach(popupClose => {
+		popupClose.addEventListener("click", popupCloseFunc)
+	})
+	popupWrapper.addEventListener("click",popupCloseFunc)
+})
